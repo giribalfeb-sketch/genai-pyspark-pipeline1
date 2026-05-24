@@ -203,6 +203,14 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Generated pipeline data
+data/raw/*.csv
+data/raw/*.parquet
+data/processed/*
+!data/processed/.gitkeep
+data/format_benchmarks/
+data/quick_benchmarks/
+
 # Ruff stuff:
 .ruff_cache/
 
